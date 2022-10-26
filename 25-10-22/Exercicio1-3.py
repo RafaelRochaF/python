@@ -1,17 +1,23 @@
+#Atividade calculadora de dois valores
+
 a = input("digite um numero:")
 b = input("digite um segundo número:")
-soma = (int(a)+int(b))
+soma = (float(a)+float(b))
 print("a soma dos números" +str(a)+ "+" +str(b)+ "é:")
 print(soma)
 
-subtracao = (int(a)-int(b))
-print("a subtração dos números" +str(a)+ "+" +str(b)+ "é:")
+subtracao = (float(a)-float(b))
+print("a subtração dos números" +str(a)+ "-9" +str(b)+ "é:")
 print(subtracao)
 
-multiplicacao = (int(a)*int(b))
-print("a multiplicação dos números" +str(a)+ "+" +str(b)+ "é:")
+multiplicacao = (float(a)*float(b))
+print("a multiplicação dos números" +str(a)+ "*" +str(b)+ "é:")
 print(multiplicacao)
 
-divisao = (int(a)/int(b))
-print("a divisão dos números" +str(a)+ "+" +str(b)+ "é:")
+divisao = (float(a)/float(b))
+print("a divisão dos números" +str(a)+ "/" +str(b)+ "é:")
 print(divisao)
+
+exponencia = (float(a)**float(b))
+print("a exponenciação dos números" +str(a)+ "**" +str(b)+ "é:")
+print(exponencia)
