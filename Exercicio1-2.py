@@ -1,0 +1,6 @@
+a = input("digite um número:")
+print("o valor do valor digitado é:")
+print(int(a))
+b = input("digite uma letra ou palavra:")
+print("o a letra ou palavra digitada é:")
+print(b)
