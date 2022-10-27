@@ -1,5 +1,5 @@
 #Atividade Maio, menor ou igual a 10
-
+print("ADIVINHA NÚMERO INTEIRO")
 N1 = int(input("Digite um numero inteiro: "))
 if N1 > 10:
     print("O valor digitado é maior que 10")
