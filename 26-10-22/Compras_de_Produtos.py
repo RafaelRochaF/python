@@ -6,10 +6,15 @@ notebook = float(2350)
 ps5 = float(2100)
 
 #Quantidade dos produtos
+print("o valor do Iphone é: ", iphone)
 qtdiphone = int(input("Você deseja comprar quantos Iphones? "))
+print("o valor do Sansumg é: ", sansung)
 qtdsansumg = int(input("Você deseja comprar quantos Sansumgs? "))
+print("o valor do Tablet é: ", tablet)
 qtdtablet = int(input("Você deseja comprar quantos Tablets? "))
+print("o valor do Notebook é: ", notebook)
 qtdnotebook = int(input("Você deseja comprar quantos Notebooks? "))
+print("o valor do PS5 é: ", ps5)
 qtdps5 = int(input("Você deseja comprar quantos PS5? "))
 
 #Valor total da compra
