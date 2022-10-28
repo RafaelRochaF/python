@@ -1,4 +1,5 @@
 # Atividade Calculadora
+
 resposta = ("s" or "n")
 while resposta == "s":
    v1 = int(input("Digite um valor inteiro: "))
@@ -16,6 +17,6 @@ while resposta == "s":
    else:
        print("valor invalido")
 
-   resposta = input("Deseja continuar a usar a calculadora? s/n")
+   resposta = input("Deseja continuar a usar a calculadora? s/n: ")
 
-
+print("Fim")
