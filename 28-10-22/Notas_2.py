@@ -7,21 +7,20 @@ trabalho3 = float(input("Digite o nota do trabalho do 3º bimestre: "))
 prova4 = float(input("Digite o nota da prova do 4º bimestre: "))
 trabalho4 = float(input("Digite o nota do trabalho do 4º bimestre: "))
 
-media1 = prova1+trabalho1
-media2 = prova2+trabalho2
-media3 = prova3+trabalho3
-media4 =prova4+trabalho4
+media1 = (prova1+trabalho1)/2
+media2 = (prova2+trabalho2)/2
+media3 = (prova3+trabalho3)/2
+media4 = (prova4+trabalho4)/2
 
-print("A nota do aluno no 1º Bimestre foi: ", media1)
-print("A nota do aluno no 2º Bimestre foi: ", media2)
-print("A nota do aluno no 3º Bimestre foi: ", media3)
-print("A nota do aluno no 4º Bimestre foi: ", media4)
+print("A Média do aluno no 1º Bimestre foi: ", media1)
+print("A Média do aluno no 2º Bimestre foi: ", media2)
+print("A Média do aluno no 3º Bimestre foi: ", media3)
+print("A Média do aluno no 4º Bimestre foi: ", media4)
 
 resultadoprova = prova1+prova2+prova3+prova4
 resultadotrabalho = trabalho1+trabalho2+trabalho3+trabalho4
 resultadofinal = resultadoprova+resultadotrabalho
 
-print("A média de pontos do aluno por bimestre foi de :", resultadofinal/4)
 
 
 if resultadofinal >= 60:

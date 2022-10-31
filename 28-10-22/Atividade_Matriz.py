@@ -16,3 +16,28 @@ if msg == False:
     print("Numero não encontrado!")
 else:
     print("Número encontrado foi: ", matriz[l][c])
+
+
+lista = []
+for i in range(5)
+    for
+# matriz em py. é lista de lista, ou seja. lista = [[],[],[],[],[]]
+
+# lista= [
+#        [0,0,0,0,0],
+#       [0,0,0,0,0],
+#       [0,0,0,0,0],
+#        [0,0,0,0,0],
+#       [0,0,0,0,0],
+#       ]
+
+
+# matriz em py. é lista de lista, ou seja. lista = [[],[],[],[],[]]
+
+# lista= [
+#        [0,0,0,0,0],
+#       [0,0,0,0,0],
+#       [0,0,0,0,0],
+#        [0,0,0,0,0],
+#       [0,0,0,0,0],
+#       ]
