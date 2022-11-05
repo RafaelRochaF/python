@@ -1,4 +1,4 @@
-valpao = float(input("Preço do pão: ")
+valpao = float(input("Preço do pão: "))
 print("")
 print("Tabela de preços:")
 for i in range(1, 51):
